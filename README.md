@@ -129,7 +129,7 @@ Project screenshots are stored in the images folder and include:
 
 ## References
 
-Microsoft Azure Documentation
-Nginx Documentation
-Cloudflare Documentation
-GitHub Documentation
+Microsoft Azure Documentation  
+Nginx Documentation  
+Cloudflare Documentation  
+GitHub Documentation  
