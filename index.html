@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameZone - ICT171 Cloud Project</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      padding-top: 130px;
+    }
+
+    header {
+      position: fixed;
+      text-align: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #222;
+      color: white;
+      z-index: 1000;
+      padding: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 85px;
+      left: 0;
+      width: 100%;
+      background: #444;
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ffcc00;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .game-row {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .game-box {
+      width: 220px;
+      background: #f5f5f5;
+      color: black;
+      border-radius: 15px;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .game-box img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .game-box:hover {
+      transform: scale(1.05);
+    }
+
+    .info-box {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>GameZone</h1>
+  <p>ICT171 Assignment 3 - Cloud Server Project</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#racing">Racing</a>
+  <a href="#horror">Horror</a>
+  <a href="#action">Action</a>
+  <a href="#server">Server</a>
+  <a href="#license">License</a>
+</nav>
+
+<section id="home">
+  <h2>About This Project</h2>
+  <p class="intro">
+    GameZone is a gaming website created for ICT171 Assignment 3. 
+    This website is hosted on a Microsoft Azure cloud virtual machine using Nginx web server.
+    The project demonstrates cloud server deployment, Linux command line use, DNS configuration, 
+    GitHub documentation, and basic web development.
+  </p>
+</section>
+
+<section id="racing">
+  <h2>Racing Games</h2>
+
+  <div class="game-row">
+    <div class="game-box">
+      <img src=https://img.freepik.com/premium-photo/racing-game-background-high-quality-ultra-hd-4k_1037171-20071.jpg?w=2000>
+      <h3>Speed Racer</h3>
+      <p>Fast racing action</p>
+    </div>
+
+    <div class="game-box">
+      <img src="https://www.pcgamesn.com/wp-content/uploads/legacy/The_Best_Racing_Games_on_PC.JPG">
+      <h3>Go Kart</h3>
+      <p>Fun kart racing</p>
+    </div>
+
+   <div class="game-box">
+      <img src="https://games.lol/wp-content/uploads/2020/12/need-for-speed-progress-1024x576.jpg">
+      <h3>NSP</h3>
+      <p>Nitro racing</p>
+    </div>
+  </div>
+
+  <p class="intro">
+    Racing games give players a fast and competitive experience where they can race cars, 
+    master tracks, and compete for the best time.
+  </p>
+</section>
+
+<section id="horror">
+  <h2>Horror Games</h2>
+
+  <div class="game-row">
+    <div class="game-box">
+      <img src="https://tophorrorgames.com/wp-content/uploads/2025/05/thumbnail-1.jpg">
+      <h3>Haunted House</h3>
+      <p>Scary adventure</p>
+    </div>
+
+    <div class="game-box">
+      <img src=https://wallpapercave.com/wp/wp1872479.jpg>
+      <h3>Outlast</h3>
+      <p>Survive the night</p>
+    </div>
+
+    <div class="game-box">
+      <img src=https://wallpaperaccess.com/full/2343242.jpg>
+      <h3>Silent Hill</h3>
+      <p>Dark survival horror</p>
+    </div>
+  </div>
+
+  <p class="intro">
+    Horror games create fear and suspense through dark environments, scary characters, 
+    and survival challenges.
+  </p>
+</section>
+
+<section id="action">
+  <h2>Action Games</h2>
+
+  <div class="game-row">
+    <div class="game-box">
+      <img src=https://play-lh.googleusercontent.com/I4xRP8RPMbzBdFakoJc-DlJW9gO_D__4lox88V6L1fzSTpoTk25RHdXUtYxTMKkW8Mk>
+      <h3>Battle Strike</h3>
+      <p>Intense combat</p>
+    </div>
+
+    <div class="game-box">
+      <img src="https://wallpaperaccess.com/full/514089.jpg">
+      <h3>Resident Evil</h3>
+      <p>Action shooter</p>
+    </div>
+
+    <div class="game-box">
+      <img src="https://wallpaper.forfun.com/fetch/47/47ebd20f869c0115540c348dbc96bb31.jpeg">
+      <h3>DOOM</h3>
+      <p>Monster killer</p>
+    </div>
+  </div>
+
+  <p class="intro">
+    Action games focus on combat, quick reactions, missions, and exciting gameplay.
+  </p>
+</section>
+
+<section id="server">
+  <h2>Cloud Server Information</h2>
+
+  <div class="info-box">
+    <p><strong>Cloud Provider:</strong> Microsoft Azure</p>
+    <p><strong>Server Type:</strong> Linux Virtual Machine using Infrastructure as a Service (IaaS)</p>
+    <p><strong>Web Server:</strong> Nginx</p>
+    <p><strong>Domain Name:</strong> gamezone-usa.com</p>
+    <p><strong>Public IP Address:</strong> Add your Azure public IP here</p>
+    <p><strong>GitHub Repository:</strong> Add your GitHub link here</p>
+  </div>
+</section>
+
+<section id="script">
+  <h2>Server Script</h2>
+
+  <div class="info-box">
+    <p>
+      As part of this project, a simple Linux script was created to check server information.
+      The script can display the current date, server hostname, disk usage, and memory usage.
+      This helps monitor the basic status of the cloud server.
+    </p>
+  </div>
+</section>
+
+<section id="license">
+  <h2>License Rationale</h2>
+
+  <div class="info-box">
+    <p>
+      This project uses the MIT License because it is simple, easy to understand, and commonly used 
+      for open-source projects. It allows other people to view, use, and modify the project while still 
+      giving credit to the original creator.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 GameZone | ICT171 Assignment 3 | MIT License</p>
+</footer>
+
+</body>
+</html>
