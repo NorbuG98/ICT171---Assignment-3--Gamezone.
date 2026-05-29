@@ -76,14 +76,14 @@ Cloudflare was used to manage DNS records and connect the custom domain to the A
 
 ### Domain Name
 
-[www.gamezone-usa.com](http://www.gamezone-usa.com)
+[www.gamezone-usa.com](https://www.gamezone-usa.com)
 
 ### DNS Records
 
 A records were configured to point both:
 
 * gamezone-usa.com
-* [www.gamezone-usa.com](http://www.gamezone-usa.com)
+* [www.gamezone-usa.com](https://www.gamezone-usa.com)
 
 to the Azure Virtual Machine public IP address.
 
