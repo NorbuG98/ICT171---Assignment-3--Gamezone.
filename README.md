@@ -29,7 +29,7 @@ Microsoft Azure
 * Virtual Machine Name: MurdochVM
 * Public IP Address: 20.213.185.249
 * Web Server: Nginx
-* Domain Name: [www.gamezone-usa.com](http://www.gamezone-usa.com)
+* Domain Name: [www.gamezone-usa.com](https://www.gamezone-usa.com)
 
 ---
 
