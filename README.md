@@ -4,7 +4,7 @@ ICT171 Assignment 3 - Cloud hosted GameZone website on Microsoft Azure with DNS,
 ## Student Information
 
 **Student Name:** Norbu Gyeltshen  
-**Assignment 3** ICT171 – Introduction to Server Environments and Architectures 
+**Assignment 3** ICT171 – Introduction to Server Environments and Architectures   
 **Project Name:** GameZone 
 
 ---
